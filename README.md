@@ -1,12 +1,12 @@
-# Advent of Code - Git Ignore Configuration
+# Advent of Code 2025
 
-This repository follows the Advent of Code (AoC) rules for organizing inputs and outputs during puzzle solving. To comply with the event's guidelines and best practices, I ignore certain files in the Git history.
+This repository follows the Advent of Code (AoC) rules for organizing inputs and outputs during puzzle solving.
 
 ### Reason for `.gitignore` Configuration
 
 The `.gitignore` has been set up to **ignore all `input.txt` and `text.txt` files** in every subfolder. This is done in compliance with Advent of Code’s rules which suggest not sharing or committing puzzle input files publicly. These input files are specific to each puzzle day and should not be included in version-controlled repositories, as per the guidelines.
 
-You can learn more about Advent of Code [here](https://adventofcode.com/2025).
+You can learn more about Advent of Code [here](https://adventofcode.com/2025) and eventually retrieve the inputs for the different problems from there.
 
 ### About the Solutions
 
