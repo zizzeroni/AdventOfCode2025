@@ -22,15 +22,15 @@ try {
 
     lines.forEach((line: string) => {
         const coordinates: string[] = line.split(',');
-        redTiles.push(new Tile(Number(coordinates[0]), Number(coordinates[1])));
+        redTiles.push(new Tile(Number(coordinates[1]), Number(coordinates[0])));
     });
 
     for (let i: number = 0; i < redTiles.length; i++) {
         for (let j: number = i + 1; j < redTiles.length; j++) {
-            const distance = evaluateTilesArea(redTiles[i], redTiles[j]);
+            const area = evaluateTilesArea(redTiles[i], redTiles[j]);
             
-            if(result < distance) {
-                result = distance;
+            if(result < area) {
+                result = area;
             }
         }
     }
